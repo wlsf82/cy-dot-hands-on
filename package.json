@@ -1,0 +1,15 @@
+{
+  "name": "cy-dot-hands-on",
+  "version": "1.0.0",
+  "description": "Filling the same form with different data using Cypress",
+  "scripts": {
+    "test": "cypress run",
+    "cy:open": "cypress open"
+  },
+  "keywords": ["cypress.io", "e2e testing"],
+  "author": "Walmyr Filho <wlsf82@gmail.com> (https://walmyr.dev)",
+  "license": "MIT",
+  "devDependencies": {
+    "cypress": "^7.0.0"
+  }
+}

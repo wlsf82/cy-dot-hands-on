@@ -1,8 +1,8 @@
 describe('Tickets', () => {
   const data = require('../fixtures/data')
 
-  data.forEach((item, index) => {
-    it(`${index + 1} - fills and submits the form based on a predefined list of data`, () => {
+  data.forEach(item => {
+    it(`fills and submits the form for ${item.firstName}`, () => {
       cy.visit('https://bit.ly/2XSuwCW')
   
       cy.get('#first-name').type(item.firstName)
